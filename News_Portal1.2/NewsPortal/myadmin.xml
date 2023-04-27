@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="admin.logentry" pk="1">
+    <field name="action_time" type="DateTimeField">2023-02-11T21:07:54.541000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">/news/ -- News</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="2">
+    <field name="action_time" type="DateTimeField">2023-02-11T21:10:16.040000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">/news/ -- News</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="3">
+    <field name="action_time" type="DateTimeField">2023-02-11T21:13:07.092000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">/news/ -- News</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="4">
+    <field name="action_time" type="DateTimeField">2023-02-12T20:42:34.567000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">5</field>
+    <field name="object_repr" type="CharField">Новость: Привет. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="5">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:13:39.962000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Newarticle. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="6">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:14:00.852000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="7">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:21:02.334000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="8">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:22:25.234000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="9">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:22:43.601000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="10">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:23:14.009000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="11">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:24:37.381000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="12">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:28:18.868000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="13">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:28:58.639000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="14">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:44:11.117000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="15">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:44:37.628000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="16">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:57:28.086000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="17">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:58:16.288000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="18">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:59:13.735000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="19">
+    <field name="action_time" type="DateTimeField">2023-02-14T20:59:55.222000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="20">
+    <field name="action_time" type="DateTimeField">2023-02-14T21:00:38.180000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матерый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="21">
+    <field name="action_time" type="DateTimeField">2023-02-14T21:16:03.353000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="22">
+    <field name="action_time" type="DateTimeField">2023-02-14T21:16:23.959000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="23">
+    <field name="action_time" type="DateTimeField">2023-02-14T21:39:41.477000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="24">
+    <field name="action_time" type="DateTimeField">2023-02-14T21:49:20.804000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="25">
+    <field name="action_time" type="DateTimeField">2023-02-14T22:25:51.917000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="26">
+    <field name="action_time" type="DateTimeField">2023-02-14T22:42:54.542000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="27">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:14:46.959000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Статья: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="28">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:18:44.872000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">4</field>
+    <field name="object_repr" type="CharField">Новость: Срочно! Матёрый Волк. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0412\u0438\u0434 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="29">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:22:33.891000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="30">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:23:41.108000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="31">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:29:54.104000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: &lt;H2&gt;&lt;Span Style="Color: #Ff6600;"&gt;&lt;Strong&gt;Курьер Помог Белке Проникнуть В Дом&lt;/Strong&gt;&lt;/Span&gt;&lt;/H2&gt;. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="32">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:31:04.966000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="33">
+    <field name="action_time" type="DateTimeField">2023-02-15T20:59:55.752000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="34">
+    <field name="action_time" type="DateTimeField">2023-02-15T21:02:33.656000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="35">
+    <field name="action_time" type="DateTimeField">2023-02-15T21:29:49.719000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке    Проникнуть В Дом. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="36">
+    <field name="action_time" type="DateTimeField">2023-02-15T22:32:27.767000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Новость: Курьер Помог Белке Проникнуть В Дом!!!. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="37">
+    <field name="action_time" type="DateTimeField">2023-02-18T20:40:15.157000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">6</field>
+    <field name="object_repr" type="CharField">Статья: Публикация 1. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="38">
+    <field name="action_time" type="DateTimeField">2023-02-18T20:46:15.819000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">8</field>
+    <field name="object_repr" type="CharField">Новость: Публикация. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="39">
+    <field name="action_time" type="DateTimeField">2023-02-18T20:46:22.113000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">7</field>
+    <field name="object_repr" type="CharField">Статья: Публикация Номер Один. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="40">
+    <field name="action_time" type="DateTimeField">2023-02-18T20:52:18.794000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">9</field>
+    <field name="object_repr" type="CharField">Новость: Публикация Номер Один. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="41">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:56:28.281000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">13</field>
+    <field name="object_repr" type="CharField">Статья: Новость. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="42">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:56:33.034000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">11</field>
+    <field name="object_repr" type="CharField">Статья: Статья 1. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="43">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:56:41.138000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">12</field>
+    <field name="object_repr" type="CharField">Новость: Новость 1. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="44">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:56:50.160000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">14</field>
+    <field name="object_repr" type="CharField">Новость: Вваолдодылва. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="45">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:56:57.218000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">10</field>
+    <field name="object_repr" type="CharField">Статья: Публикация Номер Один. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="46">
+    <field name="action_time" type="DateTimeField">2023-02-18T21:57:03.815000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">15</field>
+    <field name="object_repr" type="CharField">Новость: Привет. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="47">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.479000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">18</field>
+    <field name="object_repr" type="CharField">Статья: Sdfkmfsklfkllkkl. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="48">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.482000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">17</field>
+    <field name="object_repr" type="CharField">Статья: Sdfkmfsklf. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="49">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.483000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">21</field>
+    <field name="object_repr" type="CharField">Новость: Dddddd. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="50">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.484000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">20</field>
+    <field name="object_repr" type="CharField">Новость: Adjlsdkjfsdlf. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="51">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.485000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">16</field>
+    <field name="object_repr" type="CharField">Новость: Jib,Rf. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="52">
+    <field name="action_time" type="DateTimeField">2023-02-18T22:24:30.486000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">19</field>
+    <field name="object_repr" type="CharField">Новость: Первая Новость Проба. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="53">
+    <field name="action_time" type="DateTimeField">2023-02-24T17:07:45.328000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">/about/ -- Welcome</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="54">
+    <field name="action_time" type="DateTimeField">2023-02-24T17:08:23.145000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">/about/ -- Welcome</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="55">
+    <field name="action_time" type="DateTimeField">2023-02-24T17:09:01.683000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">/about/ -- Welcome</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="56">
+    <field name="action_time" type="DateTimeField">2023-02-24T17:12:32.707000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">/about/ -- Welcome</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="57">
+    <field name="action_time" type="DateTimeField">2023-02-24T17:57:49.614000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">3</field>
+    <field name="object_repr" type="CharField">/error_create/ -- error_create</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="58">
+    <field name="action_time" type="DateTimeField">2023-02-24T18:01:48.573000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">3</field>
+    <field name="object_repr" type="CharField">/error_create/ -- Error create</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Title", "Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="59">
+    <field name="action_time" type="DateTimeField">2023-02-24T18:02:29.993000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">13</field>
+    <field name="object_id" type="TextField">3</field>
+    <field name="object_repr" type="CharField">/error_create/ -- Error create</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Content"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="60">
+    <field name="action_time" type="DateTimeField">2023-02-24T19:12:01.038000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">6</field>
+    <field name="object_repr" type="CharField">Vasya89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="61">
+    <field name="action_time" type="DateTimeField">2023-02-24T19:47:48.255000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">12</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">127.0.0.1</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Domain name"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="62">
+    <field name="action_time" type="DateTimeField">2023-02-24T19:53:20.859000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">17</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">NameYandex</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="63">
+    <field name="action_time" type="DateTimeField">2023-02-24T19:53:37.593000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">17</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">YandexAccounts</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Name"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="64">
+    <field name="action_time" type="DateTimeField">2023-02-24T20:28:34.954000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">Normal users</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="65">
+    <field name="action_time" type="DateTimeField">2023-02-24T20:29:47.728000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">Authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="66">
+    <field name="action_time" type="DateTimeField">2023-02-24T20:41:11.348000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">8</field>
+    <field name="object_repr" type="CharField">russiks89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Username"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="67">
+    <field name="action_time" type="DateTimeField">2023-02-24T20:45:55.130000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">1</field>
+    <field name="object_repr" type="CharField">normal users</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Name"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="68">
+    <field name="action_time" type="DateTimeField">2023-02-24T20:46:01.213000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Name"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="69">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:09:12.702000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Permissions"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="70">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:18:45.070000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="71">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:33:48.152000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">3</field>
+    <field name="object_repr" type="CharField">Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="72">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:33:56.314000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">8</field>
+    <field name="object_repr" type="CharField">russiks89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="73">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:38:10.148000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="74">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:38:26.534000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">5</field>
+    <field name="object_repr" type="CharField">admin</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="75">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:39:24.175000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">5</field>
+    <field name="object_repr" type="CharField">admin</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="76">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:42:53.682000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">7</field>
+    <field name="object_repr" type="CharField">Vasya89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["password"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="77">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:43:06.379000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">7</field>
+    <field name="object_repr" type="CharField">Vasya89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="78">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:44:07.130000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Permissions"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="79">
+    <field name="action_time" type="DateTimeField">2023-02-24T21:47:54.384000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">3</field>
+    <field name="object_id" type="TextField">2</field>
+    <field name="object_repr" type="CharField">authors</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Permissions"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="80">
+    <field name="action_time" type="DateTimeField">2023-02-24T22:07:33.392000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">7</field>
+    <field name="object_repr" type="CharField">Vasya89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="81">
+    <field name="action_time" type="DateTimeField">2023-03-03T12:54:55.863000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">10</field>
+    <field name="object_repr" type="CharField">tskil4dmin89</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="82">
+    <field name="action_time" type="DateTimeField">2023-03-03T13:25:40.941000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">5</field>
+    <field name="object_repr" type="CharField">admin</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["Email address", "Groups"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="83">
+    <field name="action_time" type="DateTimeField">2023-03-03T13:33:08.280000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">12</field>
+    <field name="object_repr" type="CharField">testskil</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="84">
+    <field name="action_time" type="DateTimeField">2023-03-03T13:35:03.974000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">13</field>
+    <field name="object_repr" type="CharField">testskil</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="85">
+    <field name="action_time" type="DateTimeField">2023-03-03T14:05:36.835000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">14</field>
+    <field name="object_repr" type="CharField">testskil</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="86">
+    <field name="action_time" type="DateTimeField">2023-03-03T14:10:29.676000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">15</field>
+    <field name="object_repr" type="CharField">testskil</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="87">
+    <field name="action_time" type="DateTimeField">2023-03-03T14:15:37.912000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">4</field>
+    <field name="object_id" type="TextField">16</field>
+    <field name="object_repr" type="CharField">testskil</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="88">
+    <field name="action_time" type="DateTimeField">2023-03-03T16:57:35.811000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">31</field>
+    <field name="object_repr" type="CharField">Статья: Test. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="89">
+    <field name="action_time" type="DateTimeField">2023-03-03T17:02:59.201000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">31</field>
+    <field name="object_repr" type="CharField">Статья: Test. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="90">
+    <field name="action_time" type="DateTimeField">2023-03-03T18:14:55.762000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">6</field>
+    <field name="object_repr" type="CharField">Новость: Проба. Автор: Russiks, Категория: Python</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="91">
+    <field name="action_time" type="DateTimeField">2023-03-03T18:15:18.607000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">32</field>
+    <field name="object_repr" type="CharField">Новость: Проба. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[]</field>
+  </object>
+  <object model="admin.logentry" pk="92">
+    <field name="action_time" type="DateTimeField">2023-03-03T19:24:08.815000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">39</field>
+    <field name="object_repr" type="CharField">Статья: Hlnknklnlk. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="93">
+    <field name="action_time" type="DateTimeField">2023-03-03T19:24:08.818000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">37</field>
+    <field name="object_repr" type="CharField">Статья: Создание Кат. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="94">
+    <field name="action_time" type="DateTimeField">2023-03-03T19:24:08.819000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">35</field>
+    <field name="object_repr" type="CharField">Статья: Вася. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="95">
+    <field name="action_time" type="DateTimeField">2023-03-03T19:24:08.820000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">30</field>
+    <field name="object_repr" type="CharField">Статья: Пустое Поле. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="96">
+    <field name="action_time" type="DateTimeField">2023-03-03T19:24:08.821000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">24</field>
+    <field name="object_repr" type="CharField">Статья: Новость. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="97">
+    <field name="action_time" type="DateTimeField">2023-03-03T20:09:50.317000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">11</field>
+    <field name="object_repr" type="CharField">Новость: Cjj,Otbytdfs. Автор: SkillFA, Категория: News IT</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="98">
+    <field name="action_time" type="DateTimeField">2023-03-04T08:58:35.889000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">46</field>
+    <field name="object_repr" type="CharField">Новость: Hgffsdafjsafsafsafsldajfdsa. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="99">
+    <field name="action_time" type="DateTimeField">2023-03-04T08:58:35.893000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">45</field>
+    <field name="object_repr" type="CharField">Новость: Hgffsdafjsldajfdsa. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="100">
+    <field name="action_time" type="DateTimeField">2023-03-04T08:58:35.895000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">44</field>
+    <field name="object_repr" type="CharField">Новость: Hgffsdafjsldajfdsa. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="101">
+    <field name="action_time" type="DateTimeField">2023-03-04T10:23:19.435000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">49</field>
+    <field name="object_repr" type="CharField">Статья: Чсмчясмвыпмвымвяыаим. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="102">
+    <field name="action_time" type="DateTimeField">2023-03-04T10:24:11.853000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">12</field>
+    <field name="object_repr" type="CharField">Статья: Чсмчясмвыпмвымвяыаим. Автор: Russiks, Категория: News IT</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">1</field>
+    <field name="change_message" type="TextField">[{"added": {}}]</field>
+  </object>
+  <object model="admin.logentry" pk="103">
+    <field name="action_time" type="DateTimeField">2023-03-04T11:01:24.747000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">55</field>
+    <field name="object_repr" type="CharField">Статья: Mnbjhbjm B. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="104">
+    <field name="action_time" type="DateTimeField">2023-03-04T11:01:24.750000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">53</field>
+    <field name="object_repr" type="CharField">Статья: Рлорлдо. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="105">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:14.050000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">15</field>
+    <field name="object_repr" type="CharField">Новость: News It. Автор: SkillFA, Категория: News IT</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="106">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:14.052000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">14</field>
+    <field name="object_repr" type="CharField">Новость: Ооывафа. Автор: SkillFA, Категория: About</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="107">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:14.053000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">7</field>
+    <field name="object_id" type="TextField">12</field>
+    <field name="object_repr" type="CharField">Статья: Чсмчясмвыпмвымвяыаим. Автор: Russiks, Категория: News IT</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="108">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:30.998000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">67</field>
+    <field name="object_repr" type="CharField">Статья: Hksdfjlsakdfj. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="109">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:30.999000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">66</field>
+    <field name="object_repr" type="CharField">Статья: Rfntusalkfj. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="110">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:31+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">65</field>
+    <field name="object_repr" type="CharField">Статья: Рвададава. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="111">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:31.001000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">63</field>
+    <field name="object_repr" type="CharField">Статья: Фывлдадыфлва. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="112">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:31.002000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">41</field>
+    <field name="object_repr" type="CharField">Статья: Через Категорию. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="113">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:31.002000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">40</field>
+    <field name="object_repr" type="CharField">Статья: Через Категорию. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="114">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:30:31.003000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">22</field>
+    <field name="object_repr" type="CharField">Статья: Создание Страниц. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="115">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:35:08.896000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">68</field>
+    <field name="object_repr" type="CharField">Статья: Text 1. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="116">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:38:52.883000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">69</field>
+    <field name="object_repr" type="CharField">Новость: Text 1. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="117">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:41:18.778000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">50</field>
+    <field name="object_repr" type="CharField">Новость: Fdsfsklgjldsfgjldfsk. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="118">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:41:18.781000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">42</field>
+    <field name="object_repr" type="CharField">Новость: Cjj,Otbytdfs. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="119">
+    <field name="action_time" type="DateTimeField">2023-03-04T12:41:18.782000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">33</field>
+    <field name="object_repr" type="CharField">Новость: Ghj,F Gthf. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">3</field>
+    <field name="change_message" type="TextField"></field>
+  </object>
+  <object model="admin.logentry" pk="120">
+    <field name="action_time" type="DateTimeField">2023-03-22T16:35:27.819000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">36</field>
+    <field name="object_repr" type="CharField">Статья: Через Категории  1234. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="121">
+    <field name="action_time" type="DateTimeField">2023-03-22T16:36:26.994000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">36</field>
+    <field name="object_repr" type="CharField">Новость: Через Категории. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0412\u0438\u0434 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438", "\u0410\u0432\u0442\u043e\u0440", "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="122">
+    <field name="action_time" type="DateTimeField">2023-03-22T16:37:59.387000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">36</field>
+    <field name="object_repr" type="CharField">Статья: Через Категории 1234. Автор: Russiks</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0412\u0438\u0434 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438", "\u0410\u0432\u0442\u043e\u0440", "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="123">
+    <field name="action_time" type="DateTimeField">2023-03-22T16:39:46.839000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">36</field>
+    <field name="object_repr" type="CharField">Новость: Через Категории Hi. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0412\u0438\u0434 \u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0446\u0438\u0438", "\u0410\u0432\u0442\u043e\u0440", "\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="124">
+    <field name="action_time" type="DateTimeField">2023-03-22T17:00:14.831000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">98</field>
+    <field name="object_repr" type="CharField">Статья: Привет. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="125">
+    <field name="action_time" type="DateTimeField">2023-03-22T17:00:49.392000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">98</field>
+    <field name="object_repr" type="CharField">Статья: Зззззззззз. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="126">
+    <field name="action_time" type="DateTimeField">2023-03-22T17:01:11.529000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">98</field>
+    <field name="object_repr" type="CharField">Статья: Зззззззззз. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+  <object model="admin.logentry" pk="127">
+    <field name="action_time" type="DateTimeField">2023-03-22T17:04:27.185000+00:00</field>
+    <field name="user" rel="ManyToOneRel" to="auth.user">5</field>
+    <field name="content_type" rel="ManyToOneRel" to="contenttypes.contenttype">10</field>
+    <field name="object_id" type="TextField">98</field>
+    <field name="object_repr" type="CharField">Статья: Опа Па. Автор: SkillFA</field>
+    <field name="action_flag" type="PositiveSmallIntegerField">2</field>
+    <field name="change_message" type="TextField">[{"changed": {"fields": ["\u041e\u0433\u043b\u0430\u0432\u043b\u0435\u043d\u0438\u0435", "\u0421\u0442\u0430\u0442\u044c\u044f"]}}]</field>
+  </object>
+</django-objects>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="newsapp.category" pk="1">
+    <field name="name" type="CharField">Django</field>
+  </object>
+  <object model="newsapp.category" pk="2">
+    <field name="name" type="CharField">Python</field>
+  </object>
+  <object model="newsapp.category" pk="3">
+    <field name="name" type="CharField">News IT</field>
+  </object>
+  <object model="newsapp.category" pk="4">
+    <field name="name" type="CharField">About</field>
+  </object>
+</django-objects>

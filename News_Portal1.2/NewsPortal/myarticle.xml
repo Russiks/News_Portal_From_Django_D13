@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="newsapp.post" pk="1">
+    <field name="categoryType" type="CharField">NW</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">2</field>
+    <field name="dateCreation" type="DateTimeField">2023-02-09T14:01:00.393000+00:00</field>
+    <field name="title" type="CharField">Курьер помог белке проникнуть в дом!!!</field>
+    <field name="text" type="TextField">Одна женщина рассказала душещипательную историю, что заметила возле своего дома белку, которая была явно не прочь проникнуть в жилище.
+
+И подлый зверёк дождался-таки своего шанса, когда женщина со своей семьей заказало пиццу. Как только прибывшему курьеру открыли дверь, грызун, притаившийся на веранде, совершил умопомрачительный прыжок и оказался внутри, вызвав лёгкую панику у домовладельцев.
+
+Женщина добавила, что после хаотичной погони белка была выброшена из дома прочь. Что же касается курьера, ставшего невольным пособником животного, то он просто удалился. В конце концов, свою работу по доставке пиццы он выполнил.</field>
+    <field name="rating" type="SmallIntegerField">2</field>
+  </object>
+  <object model="newsapp.post" pk="2">
+    <field name="categoryType" type="CharField">AR</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">2</field>
+    <field name="dateCreation" type="DateTimeField">2023-02-09T14:06:36.118000+00:00</field>
+    <field name="title" type="CharField">Firstarticle</field>
+    <field name="text" type="TextField">SomeBigText</field>
+    <field name="rating" type="SmallIntegerField">5</field>
+  </object>
+  <object model="newsapp.post" pk="4">
+    <field name="categoryType" type="CharField">NW</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">1</field>
+    <field name="dateCreation" type="DateTimeField">2023-02-09T15:02:50.673000+00:00</field>
+    <field name="title" type="CharField">Срочно! Матёрый волк</field>
+    <field name="text" type="TextField">Матёрый волк украл пирожки у Красной Шапочки. 
+Бабушка сказала о нём, что "он просто нехороший человек - редиска!"</field>
+    <field name="rating" type="SmallIntegerField">-5</field>
+  </object>
+  <object model="newsapp.post" pk="5">
+    <field name="categoryType" type="CharField">NW</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">1</field>
+    <field name="dateCreation" type="DateTimeField">2023-02-12T20:42:34.566000+00:00</field>
+    <field name="title" type="CharField">Привет</field>
+    <field name="text" type="TextField">Как дела?</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+  <object model="newsapp.post" pk="23">
+    <field name="categoryType" type="CharField">NW</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">2</field>
+    <field name="dateCreation" type="DateTimeField">2023-02-19T09:09:58.152000+00:00</field>
+    <field name="title" type="CharField">История про хитрого кота</field>
+    <field name="text" type="TextField">Двойной агент, кот хитрец - именно так можно назвать нашего героя.
+
+Коты часто становятся героями смешных картинок или видео, причём они сами на это нарываются. Постоянно творят что-то смешное.
+
+То открывают холодильник, то смешно бегают и всё сбивают на своём пути. А бывает ещё такое, что начинают воровать еду и так далее.</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+  <object model="newsapp.post" pk="31">
+    <field name="categoryType" type="CharField">AR</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">2</field>
+    <field name="dateCreation" type="DateTimeField">2023-03-03T16:57:35.806000+00:00</field>
+    <field name="title" type="CharField">Test</field>
+    <field name="text" type="TextField">Charge</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+  <object model="newsapp.post" pk="32">
+    <field name="categoryType" type="CharField">NW</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">2</field>
+    <field name="dateCreation" type="DateTimeField">2023-03-03T18:14:20.035000+00:00</field>
+    <field name="title" type="CharField">Проба</field>
+    <field name="text" type="TextField">Проба пера 12</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+  <object model="newsapp.post" pk="98">
+    <field name="categoryType" type="CharField">AR</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">1</field>
+    <field name="dateCreation" type="DateTimeField">2023-03-22T16:57:16.519000+00:00</field>
+    <field name="title" type="CharField">Проба</field>
+    <field name="text" type="TextField">ПробаПробаПробаПробаПробаПробаПробаПробаПроба</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+  <object model="newsapp.post" pk="99">
+    <field name="categoryType" type="CharField">AR</field>
+    <field name="author" rel="ManyToOneRel" to="newsapp.author">1</field>
+    <field name="dateCreation" type="DateTimeField">2023-04-02T16:47:15.992855+00:00</field>
+    <field name="title" type="CharField">123</field>
+    <field name="text" type="TextField">123123123123123123123123123123123123123123123</field>
+    <field name="rating" type="SmallIntegerField">0</field>
+  </object>
+</django-objects>
